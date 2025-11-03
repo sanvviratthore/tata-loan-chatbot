@@ -1,0 +1,485 @@
+{
+  "credit_bureau": {
+    "ABCP1234X": {
+      "customer_name": "Raj Sharma",
+      "pan": "ABCP1234X",
+      "credit_score": 780,
+      "credit_history_years": 7,
+      "total_credit_cards": 2,
+      "credit_utilization": 35,
+      "payment_history": "Excellent",
+      "credit_mix": "Good",
+      "hard_inquiries_12m": 1,
+      "active_loans": [
+        {
+          "lender": "HDFC Bank",
+          "loan_type": "Personal Loan",
+          "account_number": "HDFC-PL-2023-001",
+          "sanction_amount": 150000,
+          "outstanding_amount": 120000,
+          "emi": 8000,
+          "tenure_months": 24,
+          "disbursal_date": "2023-06-15",
+          "emi_paid_on_time": 18,
+          "emi_bounced": 0
+        },
+        {
+          "lender": "ICICI Bank",
+          "loan_type": "Car Loan", 
+          "account_number": "ICICI-CL-2022-045",
+          "sanction_amount": 100000,
+          "outstanding_amount": 80000,
+          "emi": 5500,
+          "tenure_months": 36,
+          "disbursal_date": "2022-11-20",
+          "emi_paid_on_time": 24,
+          "emi_bounced": 0
+        }
+      ],
+      "total_active_loans": 2,
+      "total_outstanding": 200000,
+      "total_monthly_emi": 13500,
+      "credit_cards": [
+        {
+          "issuer": "SBI",
+          "card_number": "XXXX-XXXX-XXXX-1234",
+          "credit_limit": 75000,
+          "outstanding": 15000,
+          "utilization": 20
+        },
+        {
+          "issuer": "HDFC",
+          "card_number": "XXXX-XXXX-XXXX-5678", 
+          "credit_limit": 50000,
+          "outstanding": 25000,
+          "utilization": 50
+        }
+      ]
+    },
+    "DEFP5678Y": {
+      "customer_name": "Priya Patel",
+      "pan": "DEFP5678Y",
+      "credit_score": 680,
+      "credit_history_years": 4,
+      "total_credit_cards": 1,
+      "credit_utilization": 65,
+      "payment_history": "Good",
+      "credit_mix": "Fair", 
+      "hard_inquiries_12m": 3,
+      "active_loans": [
+        {
+          "lender": "SBI",
+          "loan_type": "Personal Loan",
+          "account_number": "SBI-PL-2023-078",
+          "sanction_amount": 200000,
+          "outstanding_amount": 180000,
+          "emi": 9500,
+          "tenure_months": 24,
+          "disbursal_date": "2023-03-10",
+          "emi_paid_on_time": 12,
+          "emi_bounced": 1
+        }
+      ],
+      "total_active_loans": 1,
+      "total_outstanding": 180000,
+      "total_monthly_emi": 9500,
+      "credit_cards": [
+        {
+          "issuer": "ICICI",
+          "card_number": "XXXX-XXXX-XXXX-9012",
+          "credit_limit": 60000,
+          "outstanding": 39000,
+          "utilization": 65
+        }
+      ]
+    },
+    "GHIP9012Z": {
+      "customer_name": "Amit Kumar",
+      "pan": "GHIP9012Z", 
+      "credit_score": 820,
+      "credit_history_years": 10,
+      "total_credit_cards": 3,
+      "credit_utilization": 25,
+      "payment_history": "Excellent",
+      "credit_mix": "Excellent",
+      "hard_inquiries_12m": 0,
+      "active_loans": [],
+      "total_active_loans": 0,
+      "total_outstanding": 0,
+      "total_monthly_emi": 0,
+      "credit_cards": [
+        {
+          "issuer": "HDFC",
+          "card_number": "XXXX-XXXX-XXXX-3456",
+          "credit_limit": 100000,
+          "outstanding": 15000,
+          "utilization": 15
+        },
+        {
+          "issuer": "Axis",
+          "card_number": "XXXX-XXXX-XXXX-7890",
+          "credit_limit": 80000,
+          "outstanding": 20000,
+          "utilization": 25
+        },
+        {
+          "issuer": "Citi",
+          "card_number": "XXXX-XXXX-XXXX-2345",
+          "credit_limit": 150000,
+          "outstanding": 25000,
+          "utilization": 17
+        }
+      ]
+    },
+    "JKLP3456A": {
+      "customer_name": "Neha Singh",
+      "pan": "JKLP3456A",
+      "credit_score": 720,
+      "credit_history_years": 6,
+      "total_credit_cards": 2,
+      "credit_utilization": 40,
+      "payment_history": "Very Good",
+      "credit_mix": "Good",
+      "hard_inquiries_12m": 2,
+      "active_loans": [
+        {
+          "lender": "Axis Bank",
+          "loan_type": "Home Loan",
+          "account_number": "AXIS-HL-2021-567",
+          "sanction_amount": 3000000,
+          "outstanding_amount": 2800000,
+          "emi": 25000,
+          "tenure_months": 240,
+          "disbursal_date": "2021-08-05",
+          "emi_paid_on_time": 36,
+          "emi_bounced": 0
+        }
+      ],
+      "total_active_loans": 1,
+      "total_outstanding": 2800000,
+      "total_monthly_emi": 25000,
+      "credit_cards": [
+        {
+          "issuer": "Kotak",
+          "card_number": "XXXX-XXXX-XXXX-6789",
+          "credit_limit": 70000,
+          "outstanding": 20000,
+          "utilization": 29
+        },
+        {
+          "issuer": "Standard Chartered",
+          "card_number": "XXXX-XXXX-XXXX-0123",
+          "credit_limit": 90000,
+          "outstanding": 40000,
+          "utilization": 44
+        }
+      ]
+    },
+    "MNOP7890B": {
+      "customer_name": "Vikram Mehta",
+      "pan": "MNOP7890B",
+      "credit_score": 650,
+      "credit_history_years": 12,
+      "total_credit_cards": 4,
+      "credit_utilization": 75,
+      "payment_history": "Average",
+      "credit_mix": "Fair",
+      "hard_inquiries_12m": 5,
+      "active_loans": [
+        {
+          "lender": "HDFC Bank",
+          "loan_type": "Personal Loan",
+          "account_number": "HDFC-PL-2023-156",
+          "sanction_amount": 300000,
+          "outstanding_amount": 220000,
+          "emi": 12500,
+          "tenure_months": 24,
+          "disbursal_date": "2023-01-20",
+          "emi_paid_on_time": 14,
+          "emi_bounced": 2
+        },
+        {
+          "lender": "ICICI Bank",
+          "loan_type": "Credit Card Loan",
+          "account_number": "ICICI-CCL-2023-089",
+          "sanction_amount": 50000,
+          "outstanding_amount": 45000,
+          "emi": 4500,
+          "tenure_months": 12,
+          "disbursal_date": "2023-09-15",
+          "emi_paid_on_time": 6,
+          "emi_bounced": 1
+        },
+        {
+          "lender": "Kotak Bank",
+          "loan_type": "Consumer Durable Loan",
+          "account_number": "KOTAK-CDL-2023-234",
+          "sanction_amount": 80000,
+          "outstanding_amount": 60000,
+          "emi": 3500,
+          "tenure_months": 24,
+          "disbursal_date": "2023-11-10",
+          "emi_paid_on_time": 4,
+          "emi_bounced": 0
+        }
+      ],
+      "total_active_loans": 3,
+      "total_outstanding": 325000,
+      "total_monthly_emi": 20500,
+      "credit_cards": [
+        {
+          "issuer": "HDFC",
+          "card_number": "XXXX-XXXX-XXXX-4567",
+          "credit_limit": 100000,
+          "outstanding": 75000,
+          "utilization": 75
+        },
+        {
+          "issuer": "SBI",
+          "card_number": "XXXX-XXXX-XXXX-8901",
+          "credit_limit": 50000,
+          "outstanding": 40000,
+          "utilization": 80
+        },
+        {
+          "issuer": "Yes Bank",
+          "card_number": "XXXX-XXXX-XXXX-1234",
+          "credit_limit": 60000,
+          "outstanding": 45000,
+          "utilization": 75
+        },
+        {
+          "issuer": "ICICI",
+          "card_number": "XXXX-XXXX-XXXX-5678",
+          "credit_limit": 80000,
+          "outstanding": 50000,
+          "utilization": 63
+        }
+      ]
+    },
+    "QRST2345C": {
+      "customer_name": "Ananya Reddy",
+      "pan": "QRST2345C",
+      "credit_score": 710,
+      "credit_history_years": 3,
+      "total_credit_cards": 1,
+      "credit_utilization": 30,
+      "payment_history": "Good",
+      "credit_mix": "Fair",
+      "hard_inquiries_12m": 2,
+      "active_loans": [],
+      "total_active_loans": 0,
+      "total_outstanding": 0,
+      "total_monthly_emi": 0,
+      "credit_cards": [
+        {
+          "issuer": "Axis Bank",
+          "card_number": "XXXX-XXXX-XXXX-3456",
+          "credit_limit": 50000,
+          "outstanding": 15000,
+          "utilization": 30
+        }
+      ]
+    },
+    "UVWX6789D": {
+      "customer_name": "Rohit Verma",
+      "pan": "UVWX6789D",
+      "credit_score": 690,
+      "credit_history_years": 8,
+      "total_credit_cards": 2,
+      "credit_utilization": 55,
+      "payment_history": "Average",
+      "credit_mix": "Fair",
+      "hard_inquiries_12m": 4,
+      "active_loans": [
+        {
+          "lender": "Yes Bank",
+          "loan_type": "Personal Loan",
+          "account_number": "YES-PL-2023-267",
+          "sanction_amount": 180000,
+          "outstanding_amount": 150000,
+          "emi": 8200,
+          "tenure_months": 24,
+          "disbursal_date": "2023-04-18",
+          "emi_paid_on_time": 11,
+          "emi_bounced": 1
+        }
+      ],
+      "total_active_loans": 1,
+      "total_outstanding": 150000,
+      "total_monthly_emi": 8200,
+      "credit_cards": [
+        {
+          "issuer": "HDFC",
+          "card_number": "XXXX-XXXX-XXXX-7890",
+          "credit_limit": 70000,
+          "outstanding": 35000,
+          "utilization": 50
+        },
+        {
+          "issuer": "ICICI",
+          "card_number": "XXXX-XXXX-XXXX-2345",
+          "credit_limit": 60000,
+          "outstanding": 40000,
+          "utilization": 67
+        }
+      ]
+    },
+    "YZAB1234E": {
+      "customer_name": "Sneha Joshi",
+      "pan": "YZAB1234E",
+      "credit_score": 750,
+      "credit_history_years": 5,
+      "total_credit_cards": 1,
+      "credit_utilization": 20,
+      "payment_history": "Very Good",
+      "credit_mix": "Good",
+      "hard_inquiries_12m": 1,
+      "active_loans": [
+        {
+          "lender": "HDFC Bank",
+          "loan_type": "Education Loan",
+          "account_number": "HDFC-EL-2020-134",
+          "sanction_amount": 400000,
+          "outstanding_amount": 200000,
+          "emi": 11000,
+          "tenure_months": 48,
+          "disbursal_date": "2020-07-22",
+          "emi_paid_on_time": 42,
+          "emi_bounced": 0
+        }
+      ],
+      "total_active_loans": 1,
+      "total_outstanding": 200000,
+      "total_monthly_emi": 11000,
+      "credit_cards": [
+        {
+          "issuer": "SBI",
+          "card_number": "XXXX-XXXX-XXXX-5678",
+          "credit_limit": 100000,
+          "outstanding": 20000,
+          "utilization": 20
+        }
+      ]
+    },
+    "CDEF5678F": {
+      "customer_name": "Arun Malhotra",
+      "pan": "CDEF5678F",
+      "credit_score": 790,
+      "credit_history_years": 15,
+      "total_credit_cards": 3,
+      "credit_utilization": 35,
+      "payment_history": "Excellent",
+      "credit_mix": "Excellent",
+      "hard_inquiries_12m": 1,
+      "active_loans": [
+        {
+          "lender": "ICICI Bank",
+          "loan_type": "Car Loan",
+          "account_number": "ICICI-CL-2022-189",
+          "sanction_amount": 600000,
+          "outstanding_amount": 300000,
+          "emi": 18000,
+          "tenure_months": 36,
+          "disbursal_date": "2022-05-12",
+          "emi_paid_on_time": 22,
+          "emi_bounced": 0
+        },
+        {
+          "lender": "SBI",
+          "loan_type": "Home Loan",
+          "account_number": "SBI-HL-2018-456",
+          "sanction_amount": 5000000,
+          "outstanding_amount": 4500000,
+          "emi": 42000,
+          "tenure_months": 180,
+          "disbursal_date": "2018-03-25",
+          "emi_paid_on_time": 72,
+          "emi_bounced": 0
+        }
+      ],
+      "total_active_loans": 2,
+      "total_outstanding": 4800000,
+      "total_monthly_emi": 60000,
+      "credit_cards": [
+        {
+          "issuer": "HDFC",
+          "card_number": "XXXX-XXXX-XXXX-9012",
+          "credit_limit": 200000,
+          "outstanding": 50000,
+          "utilization": 25
+        },
+        {
+          "issuer": "Axis",
+          "card_number": "XXXX-XXXX-XXXX-3456",
+          "credit_limit": 150000,
+          "outstanding": 60000,
+          "utilization": 40
+        },
+        {
+          "issuer": "Amex",
+          "card_number": "XXXX-XXXX-XXXX-7890",
+          "credit_limit": 300000,
+          "outstanding": 70000,
+          "utilization": 23
+        }
+      ]
+    },
+    "GHIJ9012G": {
+      "customer_name": "Pooja Gupta",
+      "pan": "GHIJ9012G",
+      "credit_score": 630,
+      "credit_history_years": 4,
+      "total_credit_cards": 2,
+      "credit_utilization": 85,
+      "payment_history": "Poor",
+      "credit_mix": "Poor",
+      "hard_inquiries_12m": 6,
+      "active_loans": [
+        {
+          "lender": "Axis Bank",
+          "loan_type": "Personal Loan",
+          "account_number": "AXIS-PL-2023-312",
+          "sanction_amount": 150000,
+          "outstanding_amount": 140000,
+          "emi": 7500,
+          "tenure_months": 24,
+          "disbursal_date": "2023-02-28",
+          "emi_paid_on_time": 12,
+          "emi_bounced": 3
+        },
+        {
+          "lender": "HDFC Bank",
+          "loan_type": "Credit Card Loan",
+          "account_number": "HDFC-CCL-2023-445",
+          "sanction_amount": 40000,
+          "outstanding_amount": 38000,
+          "emi": 3800,
+          "tenure_months": 12,
+          "disbursal_date": "2023-10-05",
+          "emi_paid_on_time": 5,
+          "emi_bounced": 1
+        }
+      ],
+      "total_active_loans": 2,
+      "total_outstanding": 178000,
+      "total_monthly_emi": 11300,
+      "credit_cards": [
+        {
+          "issuer": "ICICI",
+          "card_number": "XXXX-XXXX-XXXX-1234",
+          "credit_limit": 50000,
+          "outstanding": 45000,
+          "utilization": 90
+        },
+        {
+          "issuer": "Kotak",
+          "card_number": "XXXX-XXXX-XXXX-5678",
+          "credit_limit": 40000,
+          "outstanding": 32000,
+          "utilization": 80
+        }
+      ]
+    }
+  }
+}

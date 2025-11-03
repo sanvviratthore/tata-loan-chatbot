@@ -1,0 +1,246 @@
+{
+  "customers": [
+    {
+      "id": "CUST001",
+      "name": "Raj Sharma",
+      "phone": "9876543210",
+      "email": "raj.sharma@email.com",
+      "pan": "ABCP1234X",
+      "age": 32,
+      "city": "Mumbai",
+      "income": 75000,
+      "credit_score": 780,
+      "pre_approved_limit": 500000,
+      "existing_loans": [
+        {
+          "lender": "HDFC Bank",
+          "loan_type": "Personal Loan",
+          "amount": 150000,
+          "outstanding": 120000,
+          "emi": 8000,
+          "tenure_months": 24
+        },
+        {
+          "lender": "ICICI Bank", 
+          "loan_type": "Car Loan",
+          "amount": 100000,
+          "outstanding": 80000,
+          "emi": 5500,
+          "tenure_months": 36
+        }
+      ]
+    },
+    {
+      "id": "CUST002",
+      "name": "Priya Patel",
+      "phone": "8765432109", 
+      "email": "priya.patel@email.com",
+      "pan": "DEFP5678Y",
+      "age": 28,
+      "city": "Delhi",
+      "income": 60000,
+      "credit_score": 680,
+      "pre_approved_limit": 300000,
+      "existing_loans": [
+        {
+          "lender": "SBI",
+          "loan_type": "Personal Loan",
+          "amount": 200000,
+          "outstanding": 180000,
+          "emi": 9500,
+          "tenure_months": 24
+        }
+      ]
+    },
+    {
+      "id": "CUST003",
+      "name": "Amit Kumar",
+      "phone": "7654321098",
+      "email": "amit.kumar@email.com", 
+      "pan": "GHIP9012Z",
+      "age": 35,
+      "city": "Bangalore",
+      "income": 90000,
+      "credit_score": 820,
+      "pre_approved_limit": 700000,
+      "existing_loans": []
+    },
+    {
+      "id": "CUST004", 
+      "name": "Neha Singh",
+      "phone": "6543210987",
+      "email": "neha.singh@email.com",
+      "pan": "JKLP3456A",
+      "age": 29,
+      "city": "Hyderabad",
+      "income": 55000,
+      "credit_score": 720,
+      "pre_approved_limit": 400000,
+      "existing_loans": [
+        {
+          "lender": "Axis Bank",
+          "loan_type": "Home Loan",
+          "amount": 3000000,
+          "outstanding": 2800000,
+          "emi": 25000,
+          "tenure_months": 240
+        }
+      ]
+    },
+    {
+      "id": "CUST005",
+      "name": "Vikram Mehta",
+      "phone": "5432109876",
+      "email": "vikram.mehta@email.com",
+      "pan": "MNOP7890B",
+      "age": 41,
+      "city": "Chennai", 
+      "income": 120000,
+      "credit_score": 650,
+      "pre_approved_limit": 600000,
+      "existing_loans": [
+        {
+          "lender": "HDFC Bank",
+          "loan_type": "Personal Loan", 
+          "amount": 300000,
+          "outstanding": 220000,
+          "emi": 12500,
+          "tenure_months": 24
+        },
+        {
+          "lender": "ICICI Bank",
+          "loan_type": "Credit Card Loan",
+          "amount": 50000,
+          "outstanding": 45000, 
+          "emi": 4500,
+          "tenure_months": 12
+        },
+        {
+          "lender": "Kotak Bank",
+          "loan_type": "Consumer Durable",
+          "amount": 80000,
+          "outstanding": 60000,
+          "emi": 3500,
+          "tenure_months": 24
+        }
+      ]
+    },
+    {
+      "id": "CUST006",
+      "name": "Ananya Reddy",
+      "phone": "4321098765",
+      "email": "ananya.reddy@email.com",
+      "pan": "QRST2345C",
+      "age": 26,
+      "city": "Pune",
+      "income": 48000,
+      "credit_score": 710,
+      "pre_approved_limit": 250000,
+      "existing_loans": []
+    },
+    {
+      "id": "CUST007",
+      "name": "Rohit Verma", 
+      "phone": "3210987654",
+      "email": "rohit.verma@email.com",
+      "pan": "UVWX6789D",
+      "age": 38,
+      "city": "Kolkata",
+      "income": 80000,
+      "credit_score": 690,
+      "pre_approved_limit": 450000,
+      "existing_loans": [
+        {
+          "lender": "Yes Bank",
+          "loan_type": "Personal Loan",
+          "amount": 180000,
+          "outstanding": 150000,
+          "emi": 8200,
+          "tenure_months": 24
+        }
+      ]
+    },
+    {
+      "id": "CUST008",
+      "name": "Sneha Joshi",
+      "phone": "2109876543",
+      "email": "sneha.joshi@email.com", 
+      "pan": "YZAB1234E",
+      "age": 31,
+      "city": "Ahmedabad",
+      "income": 68000,
+      "credit_score": 750,
+      "pre_approved_limit": 350000,
+      "existing_loans": [
+        {
+          "lender": "HDFC Bank",
+          "loan_type": "Education Loan",
+          "amount": 400000,
+          "outstanding": 200000,
+          "emi": 11000,
+          "tenure_months": 48
+        }
+      ]
+    },
+    {
+      "id": "CUST009",
+      "name": "Arun Malhotra",
+      "phone": "1098765432",
+      "email": "arun.malhotra@email.com",
+      "pan": "CDEF5678F",
+      "age": 45,
+      "city": "Delhi",
+      "income": 150000,
+      "credit_score": 790,
+      "pre_approved_limit": 800000,
+      "existing_loans": [
+        {
+          "lender": "ICICI Bank",
+          "loan_type": "Car Loan",
+          "amount": 600000,
+          "outstanding": 300000,
+          "emi": 18000,
+          "tenure_months": 36
+        },
+        {
+          "lender": "SBI",
+          "loan_type": "Home Loan",
+          "amount": 5000000, 
+          "outstanding": 4500000,
+          "emi": 42000,
+          "tenure_months": 180
+        }
+      ]
+    },
+    {
+      "id": "CUST010",
+      "name": "Pooja Gupta",
+      "phone": "0987654321",
+      "email": "pooja.gupta@email.com",
+      "pan": "GHIJ9012G",
+      "age": 27,
+      "city": "Mumbai",
+      "income": 52000,
+      "credit_score": 630,
+      "pre_approved_limit": 200000,
+      "existing_loans": [
+        {
+          "lender": "Axis Bank",
+          "loan_type": "Personal Loan",
+          "amount": 150000,
+          "outstanding": 140000,
+          "emi": 7500,
+          "tenure_months": 24
+        },
+        {
+          "lender": "HDFC Bank", 
+          "loan_type": "Credit Card Loan",
+          "amount": 40000,
+          "outstanding": 38000,
+          "emi": 3800,
+          "tenure_months": 12
+        }
+      ]
+    }
+  ]
+}
