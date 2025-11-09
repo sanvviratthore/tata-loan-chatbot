@@ -34,3 +34,8 @@ It uses **multi-agent logic**, **automated credit profiling**, and **smart decis
 
 ### 5️⃣ Document Generation
 > Generates downloadable **PDF sanction letter**.
+#### 🔹 Here are the screenshots of our LOAN CHATBOT<img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/71f375e0-4d66-4d3d-9870-3f666769ea99" /><img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/819e200f-fbc4-4413-9086-62e459668a42" /><img width="1600" height="864" alt="image" src="https://github.com/user-attachments/assets/d03a2827-1f87-4ec4-9fdf-db199b8f0974" /><img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/d1f91379-3210-4543-ac57-7810b5917081" />
+
+
+
+
