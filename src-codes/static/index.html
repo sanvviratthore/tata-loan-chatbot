@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EY Tata Capital - Loan Management Platform</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Main Container -->
+    <div id="app" class="app-container">
+        <!-- Welcome Screen -->
+        <div id="welcomeScreen" class="screen active">
+            <!-- Header -->
+            <header class="welcome-header">
+                <div class="header-content">
+                    <div class="logo-section">
+                        <div class="logo-icon">
+                            <i data-lucide="building-2"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h1>EY Tata Capital</h1>
+                            <p>Building a better working world</p>
+                        </div>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn-link">About</button>
+                        <button class="btn-link">Contact</button>
+                        <button class="btn-primary-small">Sign In</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <div class="hero-content">
+                    <div class="hero-left">
+                        <div class="award-badge">
+                            <i data-lucide="award"></i>
+                            <span>Award-Winning AI Technology</span>
+                        </div>
+                        <h2 class="hero-title">
+                            Intelligent Lending.<br>
+                            <span class="highlight">Exceptional Results.</span>
+                        </h2>
+                        <p class="hero-description">
+                            Experience the future of personal finance with our AI-powered loan platform. 
+                            Get instant approvals, personalized consolidation strategies, and save thousands on interest payments.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn-primary" onclick="showScreen('chatScreen')">
+                                <span>Begin Application</span>
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                            <button class="btn-secondary">Watch Demo</button>
+                        </div>
+                        <div class="hero-features">
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>2-minute approval</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>Zero hidden fees</span>
+                            </div>
+                            <div class="feature-item">
+                                <i data-lucide="check-circle"></i>
+                                <span>100% secure</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-right">
+                        <div class="metrics-card">
+                            <div class="metric-item">
+                                <div class="metric-header">
+                                    <i data-lucide="dollar-sign"></i>
+                                    <span class="metric-badge positive">+23%</span>
+                                </div>
+                                <div class="metric-label">Average Savings</div>
+                                <div class="metric-value">₹2.8L</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-header">
+                                    <i data-lucide="clock"></i>
+                                    <span class="metric-badge positive">98% success</span>
+                                </div>
+                                <div class="metric-label">Approval Time</div>
+                                <div class="metric-value">2 min</div>
+                            </div>
+                            <div class="metric-item">
+                                <div class="metric-header">
+                                    <i data-lucide="award"></i>
+                                    <span class="metric-badge positive">15K reviews</span>
+                                </div>
+                                <div class="metric-label">Customer Rating</div>
+                                <div class="metric-value">4.9/5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Bar -->
+                <div class="stats-bar">
+                    <div class="stat-card">
+                        <i data-lucide="trending-up"></i>
+                        <div class="stat-number">₹500Cr+</div>
+                        <div class="stat-label">Loans Disbursed</div>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="users"></i>
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="check-circle"></i>
+                        <div class="stat-number">97%</div>
+                        <div class="stat-label">Approval Rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <i data-lucide="message-circle"></i>
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">AI Support</div>
+                    </div>
+                </div>
+
+                <!-- Features Grid -->
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="shield"></i>
+                        </div>
+                        <h3>Enterprise Security</h3>
+                        <p>Bank-grade encryption with multi-factor authentication and real-time fraud detection</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="bar-chart-3"></i>
+                        </div>
+                        <h3>Smart Analytics</h3>
+                        <p>AI-powered credit analysis and personalized recommendations based on your financial profile</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h3>Instant Processing</h3>
+                        <p>Automated underwriting with real-time approvals and same-day disbursement</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Screen -->
+        <div id="chatScreen" class="screen">
+            <!-- Professional Header -->
+            <header class="chat-header">
+                <div class="header-content">
+                    <div class="logo-section">
+                        <button class="btn-icon" onclick="showScreen('welcomeScreen')">
+                            <i data-lucide="arrow-left"></i>
+                        </button>
+                        <div class="logo-icon-small">
+                            <i data-lucide="building-2"></i>
+                        </div>
+                        <div class="logo-text-small">
+                            <h1>EY Tata Capital</h1>
+                            <p>Loan Management Platform</p>
+                        </div>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn-icon">
+                            <i data-lucide="bell"></i>
+                            <span class="notification-dot"></span>
+                        </button>
+                        <button class="btn-icon">
+                            <i data-lucide="settings"></i>
+                        </button>
+                        <div class="user-avatar">RK</div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Chat Layout -->
+            <div class="chat-layout">
+                <!-- Sidebar -->
+                <aside class="sidebar" id="sidebar">
+                    <!-- Dynamic Profile Section (Hidden by default) -->
+                    <div id="profileSection" style="display: none;">
+                        <!-- Profile Card -->
+                        <div class="profile-card" id="profileCard">
+                            <div class="profile-avatar" id="profileAvatar">--</div>
+                            <div class="profile-name" id="profileName">Guest User</div>
+                            <div class="profile-id" id="profileId">ID: --</div>
+                            <div class="status-badge" id="profileStatus" style="display: none;">
+                                <span class="status-dot"></span>
+                                <span id="statusText">Pending</span>
+                            </div>
+                        </div>
+
+                        <!-- Credit Score -->
+                        <div class="credit-score-card" id="creditScoreCard" style="display: none;">
+                            <div class="card-header">
+                                <span>Credit Score</span>
+                                <span class="badge-good" id="creditBadge">--</span>
+                            </div>
+                            <div class="score-value" id="creditScore">--</div>
+                            <div class="score-update" id="creditUpdate">Calculating...</div>
+                        </div>
+
+                        <!-- Active Loans -->
+                        <div class="info-card" id="activeLoansCard" style="display: none;">
+                            <div class="card-header">
+                                <span>Active Loans</span>
+                                <span class="badge-count" id="loanCount">0</span>
+                            </div>
+                            <div id="loansList">
+                                <!-- Loans will be dynamically added here -->
+                            </div>
+                        </div>
+
+                        <!-- Financial Overview -->
+                        <div class="info-card" id="financialOverviewCard" style="display: none;">
+                            <div class="card-title">Financial Overview</div>
+                            <div id="financialMetrics">
+                                <!-- Metrics will be dynamically added here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Welcome Message (Shown by default) -->
+                    <div id="sidebarWelcome" class="sidebar-welcome">
+                        <div class="welcome-icon-sidebar">💬</div>
+                        <h3>Welcome to EY Tata Capital</h3>
+                        <p>Start chatting to see your personalized loan profile and recommendations.</p>
+                        <div class="sidebar-features">
+                            <div class="sidebar-feature-item">
+                                <i data-lucide="shield"></i>
+                                <span>Secure & Private</span>
+                            </div>
+                            <div class="sidebar-feature-item">
+                                <i data-lucide="zap"></i>
+                                <span>Instant Analysis</span>
+                            </div>
+                            <div class="sidebar-feature-item">
+                                <i data-lucide="award"></i>
+                                <span>Best Rates</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="divider">
+
+                    <!-- Upload Section -->
+                    <div class="upload-section">
+                        <div class="section-title">📎 Upload Documents</div>
+                        <div class="section-subtitle">Upload salary slip for income verification</div>
+                        <input type="file" id="fileInput" accept=".pdf,.jpg,.jpeg,.png" style="display: none;">
+                        <button class="btn-upload" onclick="document.getElementById('fileInput').click()">
+                            <i data-lucide="upload"></i>
+                            Choose File
+                        </button>
+                    </div>
+
+                    <hr class="divider">
+
+                    <!-- Actions -->
+                    <button class="btn-secondary-full" onclick="resetChat()">
+                        <i data-lucide="refresh-cw"></i>
+                        Start New Conversation
+                    </button>
+
+                    <hr class="divider">
+
+                    <!-- Trust Badges -->
+                    <div class="trust-badges">
+                        <div class="trust-badge">
+                            <i data-lucide="lock"></i>
+                            SSL Secured
+                        </div>
+                        <div class="trust-badge">
+                            <i data-lucide="shield"></i>
+                            RBI Approved
+                        </div>
+                        <div class="trust-badge">
+                            <i data-lucide="award"></i>
+                            ISO Certified
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Chat Area -->
+                <main class="chat-main">
+                    <!-- Chat Header -->
+                    <div class="chat-advisor-header">
+                        <div class="advisor-info">
+                            <button class="btn-icon mobile-only" onclick="toggleSidebar()">
+                                <i data-lucide="menu"></i>
+                            </button>
+                            <div class="advisor-avatar">
+                                <i data-lucide="message-circle"></i>
+                                <span class="online-indicator"></span>
+                            </div>
+                            <div>
+                                <div class="advisor-name">AI Loan Advisor</div>
+                                <div class="advisor-status">Active • Response time: ~30 sec</div>
+                            </div>
+                        </div>
+                        <div class="advisor-actions">
+                            <button class="btn-icon">
+                                <i data-lucide="search"></i>
+                            </button>
+                            <button class="btn-icon">
+                                <i data-lucide="more-vertical"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Messages Container -->
+                    <div class="messages-container" id="messagesContainer">
+                        <!-- Welcome Banner -->
+                        <div class="welcome-banner">
+                            <div class="welcome-icon">✨</div>
+                            <div class="welcome-title">Welcome to EY Tata Capital</div>
+                            <div class="welcome-subtitle">Your intelligent loan assistant powered by AI</div>
+                            <div class="welcome-features">
+                                <div class="welcome-feature">
+                                    <div class="feature-emoji">⚡</div>
+                                    <div class="feature-title">2-Min Approval</div>
+                                    <div class="feature-desc">Instant loan decisions</div>
+                                </div>
+                                <div class="welcome-feature">
+                                    <div class="feature-emoji">💰</div>
+                                    <div class="feature-title">Save ₹2.8L+</div>
+                                    <div class="feature-desc">Average savings</div>
+                                </div>
+                                <div class="welcome-feature">
+                                    <div class="feature-emoji">🛡️</div>
+                                    <div class="feature-title">100% Secure</div>
+                                    <div class="feature-desc">Bank-grade encryption</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Input Area -->
+                    <div class="input-area">
+                        <div class="input-container">
+                            <div class="input-wrapper">
+                                <input 
+                                    type="text" 
+                                    id="messageInput" 
+                                    placeholder="Type your message here..."
+                                    onkeypress="handleKeyPress(event)"
+                                >
+                                <button class="btn-icon-input">
+                                    <i data-lucide="paperclip"></i>
+                                </button>
+                            </div>
+                            <button class="btn-send" onclick="sendMessage()">
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                        <div class="input-hints">
+                            <div class="hint-left">
+                                <span>💡 Press Enter to send</span>
+                                <span>•</span>
+                                <span>Shift + Enter for new line</span>
+                            </div>
+                            <div class="hint-right">
+                                <i data-lucide="lock"></i>
+                                <span>End-to-end encrypted</span>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div>© 2025 <span class="highlight">EY Tata Capital</span> | Loan Management Platform</div>
+        <div class="footer-small">Powered by AI • Building a better working world • EY Hackathon 2025</div>
+        <div class="footer-security">🔒 Your data is protected with enterprise-grade security</div>
+    </footer>
+
+    <script src="/static/app.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

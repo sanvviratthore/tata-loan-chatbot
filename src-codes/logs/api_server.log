@@ -1,0 +1,83 @@
+{"timestamp": "2025-11-08T19:36:30.908929Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 40}
+{"timestamp": "2025-11-08T19:36:31.919479Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:36:32.116075Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:36:46.138436Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 8b389f30-8fb0-4b94-ae4c-c625bd40a7fb", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:41:38.424214Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 800ee516-5512-41d0-9513-050036dcedd0", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:43:26.393618Z", "level": "INFO", "logger": "api_server", "message": "Created new session: d7fc08f9-97ef-4459-a7ee-085fcb5bc400", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:44:29.630211Z", "level": "INFO", "logger": "api_server", "message": "Created new session: af28c226-6cd8-4f68-8df3-c5587f0f84e1", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:44:59.059869Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 0a1385a9-cd01-47dd-97ac-f1fb70ff4f95", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:48:15.082928Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 6765ee7b-f293-44b0-aad9-4c8516b2d8ef", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:49:50.149665Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 40}
+{"timestamp": "2025-11-08T19:49:51.034585Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:49:51.141884Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:49:56.296184Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 85beab1a-52be-40b1-b71e-29d2add0bba2", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:51:32.442815Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 4b5fb420-b4fb-4b4a-b14d-92ac75be78fb", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:51:57.926618Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 5475416d-e71b-462f-b3ce-666be56dd24f", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:55:45.570931Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 40}
+{"timestamp": "2025-11-08T19:55:46.439473Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:55:46.535585Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:55:55.129726Z", "level": "INFO", "logger": "api_server", "message": "Created new session: f09ef9ed-18c7-4f90-b0cb-5a4b2aaac086", "module": "api_server", "function": "create_session", "line": 88}
+{"timestamp": "2025-11-08T19:57:04.563183Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:57:04.663616Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:57:48.744940Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:57:48.915837Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:58:21.372278Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 40}
+{"timestamp": "2025-11-08T19:58:22.168873Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:58:22.263102Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 42}
+{"timestamp": "2025-11-08T19:58:28.254498Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 13d3bf45-b737-4486-9ed0-6953e2b15dd0", "module": "api_server", "function": "create_session", "line": 91}
+{"timestamp": "2025-11-08T19:59:54.529723Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 63}
+{"timestamp": "2025-11-08T19:59:55.316615Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 65}
+{"timestamp": "2025-11-08T19:59:55.411204Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 65}
+{"timestamp": "2025-11-08T20:00:03.078581Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 84b2d9b9-da54-41d6-a64f-c0d5880e8eab", "module": "api_server", "function": "create_session", "line": 114}
+{"timestamp": "2025-11-08T20:00:53.441696Z", "level": "INFO", "logger": "api_server", "message": "Created new session: f8cf79b0-f91a-49ea-8cfd-7654a85b64f7", "module": "api_server", "function": "create_session", "line": 114}
+{"timestamp": "2025-11-08T20:03:16.655883Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 63}
+{"timestamp": "2025-11-08T20:03:17.610229Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 65}
+{"timestamp": "2025-11-08T20:03:17.806876Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 65}
+{"timestamp": "2025-11-08T20:03:27.567908Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 22258a10-7fb6-45c1-a86c-17799da00ebe", "module": "api_server", "function": "create_session", "line": 114}
+{"timestamp": "2025-11-08T20:07:18.239631Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:07:18.389636Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:08:11.031519Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:08:11.887427Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:08:12.002061Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:08:17.570589Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 1c037f33-3c64-4161-b12f-b8368bdb7e21", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:10:09.059016Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:10:09.966996Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:10:10.064506Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:10:14.295641Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 67df5d83-9d8b-4f53-b922-59bb3d1c484a", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:10:51.037009Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:10:51.868878Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:10:51.968454Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:14:10.764772Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:14:11.643135Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:14:11.748065Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:14:17.451254Z", "level": "INFO", "logger": "api_server", "message": "Created new session: e4521639-0558-4492-aa17-b4060787148a", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:16:19.234134Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:16:20.124391Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:16:20.224292Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:17:35.523003Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:17:36.359141Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:17:36.461801Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:17:44.601315Z", "level": "INFO", "logger": "api_server", "message": "Created new session: a19b8b54-bacd-40c0-b350-fd233779ddd5", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:27:30.240045Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:27:31.544606Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:27:31.777854Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:30:27.914201Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:30:28.789803Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:30:28.899366Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:31:39.641186Z", "level": "INFO", "logger": "api_server", "message": "Created new session: bdc3098b-c40b-4d6b-81d2-5a443519fb23", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:33:20.372586Z", "level": "INFO", "logger": "api_server", "message": "Created new session: ff1c611b-1a3f-498a-890d-a85f6e862911", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:36:00.645550Z", "level": "INFO", "logger": "api_server", "message": "Created new session: acd96c1b-a642-44c0-bc8e-5ace18219875", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:40:27.818643Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 049ff3bd-3b6b-41b1-a090-d2cdcf43578e", "module": "api_server", "function": "chat", "line": 138}
+{"timestamp": "2025-11-08T20:40:27.822198Z", "level": "INFO", "logger": "api_server", "message": "Created new session: d3e20722-888d-4535-b5d7-c3c57aa93c39", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:40:57.972820Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:40:58.778344Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:40:58.906085Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:42:14.405645Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 72cd2ac8-dd8d-406a-8179-43894388bc26", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:45:50.031987Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:45:50.935338Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:45:51.054989Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:45:58.295797Z", "level": "INFO", "logger": "api_server", "message": "Created new session: a534483f-7149-4cb3-b2d0-e85165816320", "module": "api_server", "function": "create_session", "line": 119}
+{"timestamp": "2025-11-08T20:47:07.702686Z", "level": "WARNING", "logger": "api_server", "message": "OPENROUTER_API_KEY not found, using mock LLM", "module": "api_server", "function": "<module>", "line": 68}
+{"timestamp": "2025-11-08T20:47:08.571842Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:47:08.684545Z", "level": "INFO", "logger": "api_server", "message": "Using OpenRouter LLM", "module": "api_server", "function": "<module>", "line": 70}
+{"timestamp": "2025-11-08T20:47:16.474571Z", "level": "INFO", "logger": "api_server", "message": "Created new session: 4436484b-dd79-428e-9deb-ba9ccfd50259", "module": "api_server", "function": "create_session", "line": 119}

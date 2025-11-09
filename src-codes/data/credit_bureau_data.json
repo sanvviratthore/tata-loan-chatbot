@@ -1,0 +1,293 @@
+{
+  "credit_profiles": [
+    {
+      "customer_id": "CUST001",
+      "credit_score": 720,
+      "active_loans": [
+        {
+          "loan_id": "LOAN001",
+          "loan_type": "Personal Loan",
+          "lender": "HDFC Bank",
+          "principal": 200000,
+          "outstanding": 150000,
+          "interest_rate": 14.5,
+          "monthly_emi": 8500,
+          "remaining_tenure": 18
+        },
+        {
+          "loan_id": "LOAN002",
+          "loan_type": "Credit Card",
+          "lender": "ICICI Bank",
+          "principal": 50000,
+          "outstanding": 50000,
+          "interest_rate": 18.0,
+          "monthly_emi": 5000,
+          "remaining_tenure": 12
+        },
+        {
+          "loan_id": "LOAN003",
+          "loan_type": "Personal Loan",
+          "lender": "Axis Bank",
+          "principal": 100000,
+          "outstanding": 75000,
+          "interest_rate": 15.5,
+          "monthly_emi": 4500,
+          "remaining_tenure": 20
+        }
+      ],
+      "total_outstanding": 275000,
+      "total_monthly_emi": 18000,
+      "debt_to_income_ratio": 24.0,
+      "monthly_income": 75000
+    },
+    {
+      "customer_id": "CUST002",
+      "credit_score": 780,
+      "active_loans": [
+        {
+          "loan_id": "LOAN004",
+          "loan_type": "Home Loan",
+          "lender": "SBI",
+          "principal": 2500000,
+          "outstanding": 2200000,
+          "interest_rate": 8.5,
+          "monthly_emi": 22000,
+          "remaining_tenure": 180
+        },
+        {
+          "loan_id": "LOAN005",
+          "loan_type": "Car Loan",
+          "lender": "HDFC Bank",
+          "principal": 500000,
+          "outstanding": 350000,
+          "interest_rate": 10.5,
+          "monthly_emi": 12000,
+          "remaining_tenure": 36
+        }
+      ],
+      "total_outstanding": 2550000,
+      "total_monthly_emi": 34000,
+      "debt_to_income_ratio": 28.3,
+      "monthly_income": 120000
+    },
+    {
+      "customer_id": "CUST003",
+      "credit_score": 620,
+      "active_loans": [
+        {
+          "loan_id": "LOAN006",
+          "loan_type": "Personal Loan",
+          "lender": "Bajaj Finserv",
+          "principal": 80000,
+          "outstanding": 65000,
+          "interest_rate": 16.5,
+          "monthly_emi": 4200,
+          "remaining_tenure": 18
+        },
+        {
+          "loan_id": "LOAN007",
+          "loan_type": "Credit Card",
+          "lender": "ICICI Bank",
+          "principal": 30000,
+          "outstanding": 30000,
+          "interest_rate": 20.0,
+          "monthly_emi": 3500,
+          "remaining_tenure": 10
+        }
+      ],
+      "total_outstanding": 95000,
+      "total_monthly_emi": 7700,
+      "debt_to_income_ratio": 17.1,
+      "monthly_income": 45000
+    },
+    {
+      "customer_id": "CUST004",
+      "credit_score": 755,
+      "active_loans": [
+        {
+          "loan_id": "LOAN008",
+          "loan_type": "Personal Loan",
+          "lender": "Kotak Mahindra Bank",
+          "principal": 300000,
+          "outstanding": 250000,
+          "interest_rate": 13.5,
+          "monthly_emi": 9500,
+          "remaining_tenure": 30
+        }
+      ],
+      "total_outstanding": 250000,
+      "total_monthly_emi": 9500,
+      "debt_to_income_ratio": 10.0,
+      "monthly_income": 95000
+    },
+    {
+      "customer_id": "CUST005",
+      "credit_score": 690,
+      "active_loans": [],
+      "total_outstanding": 0,
+      "total_monthly_emi": 0,
+      "debt_to_income_ratio": 0.0,
+      "monthly_income": 60000
+    },
+    {
+      "customer_id": "CUST006",
+      "credit_score": 580,
+      "active_loans": [
+        {
+          "loan_id": "LOAN009",
+          "loan_type": "Personal Loan",
+          "lender": "IDFC First Bank",
+          "principal": 150000,
+          "outstanding": 140000,
+          "interest_rate": 17.5,
+          "monthly_emi": 7500,
+          "remaining_tenure": 22
+        },
+        {
+          "loan_id": "LOAN010",
+          "loan_type": "Credit Card",
+          "lender": "HDFC Bank",
+          "principal": 40000,
+          "outstanding": 40000,
+          "interest_rate": 22.0,
+          "monthly_emi": 4000,
+          "remaining_tenure": 12
+        },
+        {
+          "loan_id": "LOAN011",
+          "loan_type": "Personal Loan",
+          "lender": "Bajaj Finserv",
+          "principal": 60000,
+          "outstanding": 55000,
+          "interest_rate": 18.0,
+          "monthly_emi": 3200,
+          "remaining_tenure": 20
+        }
+      ],
+      "total_outstanding": 235000,
+      "total_monthly_emi": 14700,
+      "debt_to_income_ratio": 17.3,
+      "monthly_income": 85000
+    },
+    {
+      "customer_id": "CUST007",
+      "credit_score": 810,
+      "active_loans": [
+        {
+          "loan_id": "LOAN012",
+          "loan_type": "Personal Loan",
+          "lender": "SBI",
+          "principal": 500000,
+          "outstanding": 450000,
+          "interest_rate": 11.5,
+          "monthly_emi": 15000,
+          "remaining_tenure": 36
+        },
+        {
+          "loan_id": "LOAN013",
+          "loan_type": "Business Loan",
+          "lender": "HDFC Bank",
+          "principal": 1000000,
+          "outstanding": 900000,
+          "interest_rate": 12.0,
+          "monthly_emi": 28000,
+          "remaining_tenure": 40
+        },
+        {
+          "loan_id": "LOAN014",
+          "loan_type": "Credit Card",
+          "lender": "Axis Bank",
+          "principal": 80000,
+          "outstanding": 80000,
+          "interest_rate": 16.0,
+          "monthly_emi": 7000,
+          "remaining_tenure": 14
+        },
+        {
+          "loan_id": "LOAN015",
+          "loan_type": "Car Loan",
+          "lender": "ICICI Bank",
+          "principal": 600000,
+          "outstanding": 500000,
+          "interest_rate": 10.0,
+          "monthly_emi": 16000,
+          "remaining_tenure": 38
+        }
+      ],
+      "total_outstanding": 1930000,
+      "total_monthly_emi": 66000,
+      "debt_to_income_ratio": 44.0,
+      "monthly_income": 150000
+    },
+    {
+      "customer_id": "CUST008",
+      "credit_score": 640,
+      "active_loans": [
+        {
+          "loan_id": "LOAN016",
+          "loan_type": "Personal Loan",
+          "lender": "HDFC Bank",
+          "principal": 100000,
+          "outstanding": 90000,
+          "interest_rate": 15.0,
+          "monthly_emi": 4500,
+          "remaining_tenure": 24
+        },
+        {
+          "loan_id": "LOAN017",
+          "loan_type": "Credit Card",
+          "lender": "SBI",
+          "principal": 25000,
+          "outstanding": 25000,
+          "interest_rate": 19.0,
+          "monthly_emi": 2500,
+          "remaining_tenure": 12
+        },
+        {
+          "loan_id": "LOAN018",
+          "loan_type": "Personal Loan",
+          "lender": "Axis Bank",
+          "principal": 75000,
+          "outstanding": 70000,
+          "interest_rate": 16.0,
+          "monthly_emi": 3800,
+          "remaining_tenure": 22
+        },
+        {
+          "loan_id": "LOAN019",
+          "loan_type": "Consumer Durable Loan",
+          "lender": "Bajaj Finserv",
+          "principal": 50000,
+          "outstanding": 45000,
+          "interest_rate": 14.0,
+          "monthly_emi": 2200,
+          "remaining_tenure": 24
+        },
+        {
+          "loan_id": "LOAN020",
+          "loan_type": "Personal Loan",
+          "lender": "IDFC First Bank",
+          "principal": 60000,
+          "outstanding": 55000,
+          "interest_rate": 17.0,
+          "monthly_emi": 3000,
+          "remaining_tenure": 20
+        },
+        {
+          "loan_id": "LOAN021",
+          "loan_type": "Credit Card",
+          "lender": "ICICI Bank",
+          "principal": 20000,
+          "outstanding": 20000,
+          "interest_rate": 21.0,
+          "monthly_emi": 2000,
+          "remaining_tenure": 12
+        }
+      ],
+      "total_outstanding": 305000,
+      "total_monthly_emi": 18000,
+      "debt_to_income_ratio": 32.7,
+      "monthly_income": 55000
+    }
+  ]
+}
