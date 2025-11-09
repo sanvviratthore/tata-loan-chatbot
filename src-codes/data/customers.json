@@ -1,0 +1,76 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST001",
+      "name": "Rajesh Kumar",
+      "pan": "ABCDE1234F",
+      "mobile": "9876543210",
+      "email": "rajesh.kumar@example.com",
+      "monthly_income": 75000,
+      "employment_type": "Salaried"
+    },
+    {
+      "customer_id": "CUST002",
+      "name": "Priya Sharma",
+      "pan": "FGHIJ5678K",
+      "mobile": "9123456789",
+      "email": "priya.sharma@example.com",
+      "monthly_income": 120000,
+      "employment_type": "Salaried"
+    },
+    {
+      "customer_id": "CUST003",
+      "name": "Amit Patel",
+      "pan": "KLMNO9012P",
+      "mobile": "9988776655",
+      "email": "amit.patel@example.com",
+      "monthly_income": 45000,
+      "employment_type": "Self-Employed"
+    },
+    {
+      "customer_id": "CUST004",
+      "name": "Sneha Reddy",
+      "pan": "QRSTU3456V",
+      "mobile": "9765432109",
+      "email": "sneha.reddy@example.com",
+      "monthly_income": 95000,
+      "employment_type": "Salaried"
+    },
+    {
+      "customer_id": "CUST005",
+      "name": "Vikram Singh",
+      "pan": "WXYZB7890C",
+      "mobile": "9654321098",
+      "email": "vikram.singh@example.com",
+      "monthly_income": 60000,
+      "employment_type": "Salaried"
+    },
+    {
+      "customer_id": "CUST006",
+      "name": "Ananya Iyer",
+      "pan": "DEFGH2345I",
+      "mobile": "9543210987",
+      "email": "ananya.iyer@example.com",
+      "monthly_income": 85000,
+      "employment_type": "Salaried"
+    },
+    {
+      "customer_id": "CUST007",
+      "name": "Karthik Menon",
+      "pan": "IJKLM6789N",
+      "mobile": "9432109876",
+      "email": "karthik.menon@example.com",
+      "monthly_income": 150000,
+      "employment_type": "Self-Employed"
+    },
+    {
+      "customer_id": "CUST008",
+      "name": "Deepa Nair",
+      "pan": "NOPQR1234S",
+      "mobile": "9321098765",
+      "email": "deepa.nair@example.com",
+      "monthly_income": 55000,
+      "employment_type": "Salaried"
+    }
+  ]
+}

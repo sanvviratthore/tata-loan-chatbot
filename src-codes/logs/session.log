@@ -1,0 +1,2 @@
+{"timestamp": "2025-11-08T15:58:19.740402Z", "level": "INFO", "logger": "session", "message": "Session event: created", "module": "logger", "function": "log_with_context", "line": 171, "session_id": "session_123", "event_type": "created", "user_id": "user_456"}
+{"timestamp": "2025-11-08T15:58:29.416749Z", "level": "INFO", "logger": "session", "message": "Session event: created", "module": "logger", "function": "log_with_context", "line": 171, "session_id": "session_123", "event_type": "created", "user_id": "user_456"}
