@@ -1,0 +1,6 @@
+# Runtime dependencies
+# (all core logic uses the Python standard library)
+
+# Dev dependencies
+pytest==7.4.4
+
